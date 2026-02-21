@@ -1,4 +1,4 @@
-# Programacion-2026
+# Programación 2026
 Arizbe Itzari Silva Silva
 
 Este repositorio es en donde residen los ejercicos y prácticas que veremos en el curso de Programación en el semestre 2026
