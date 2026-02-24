@@ -18,8 +18,4 @@ Python
 
 ---
 
-## Proyecto: Sistema de Inversiones
-
-Este proyecto implementa una clase en Python que simula un sistema básico de inversiones.
-
 
