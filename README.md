@@ -16,6 +16,5 @@ Este es un repositorio en donde haremos pruebas de código generado en Python.
 
 Python
 
----
 
 
