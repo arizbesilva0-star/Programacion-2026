@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ltvPNfjCpAchXZZ_ogJVD3Azqf7HKdAf
 """
 
-#Ejercicio 1
+**Ejercicio 1**
 #Hacer que el programa que resuelve la ecuación cuadratica,
 #tenga solución cuando el discriminante sea menor a cero.
 
@@ -48,7 +48,7 @@ elif a == 0:  # Si a es 0, la ecuación se vuelve lineal: bx + c = 0
         else:
             print("Contradicción")
 
-#Ejercicio 2
+**Ejercicio 2**
 #Desarrollar un programa que calcule la suma de los dígitos
 # de cualquier número entero positivo introducido por el usuario
 
@@ -67,7 +67,7 @@ if n>=0:
 else:
     print("El número debe ser positivo")
 
-#Ejercicio 3
+**Ejercicio 3**
 palabra=input('Da una palabra: ')
 
 invertida=palabra[::-1]
@@ -77,7 +77,7 @@ if palabra==invertida:
 else:
     print("La palabra no es un palíndromo")
 
-#Ejercicio 4
+**Ejercicio 4**
 #Escribir un programa que pida al usuario una palabra
 # y muestre por pantalla si es un palíndromo.
 
@@ -97,7 +97,7 @@ while suma<1.50:
 
 print("La suma total es: ", suma)
 
-#Ejercicio 5
+**Ejercicio 5**
 #i. Construye un programa que diga si un número entero es o no primo
 
 n=int(input('Da un número entero: '))
@@ -135,7 +135,7 @@ while contador<N:
 
     num=num+1
 
-#Ejecicio 6
+**Ejercicio 6**
 #Haz un programa que te regrese los primeros 100 términos
 #de la sucesión de Fibonacci (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, · · ·)
 
