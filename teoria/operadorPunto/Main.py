@@ -1,5 +1,5 @@
 """
-Created on Febrero, 2019
+Created on Febrero, 2026
 @author: arizbesilva0-star
 """
 
@@ -30,5 +30,6 @@ print("\n*** 3. Probamos operaciones ***")
 
 cuenta1.depositar(200)
 cuenta1.retirar(100)
+
 
 cuenta1.imprimirDetalles()
