@@ -4,31 +4,39 @@ Created on Febrero, 2026
 """
 
 from Cuenta import *
+from Cliente import *
 from Menu import *
 
-class Main:
-    pass
-
-
-menu = Menu("Bienvenidos al Banco Pato")
-
-menu.darBienvenida()
-opcion = menu.despliegaMenu()
-
+menu = Menu("Bienvenido al Banco")
 
 cuenta1 = Cuenta(300, "debito", "12/02/2019")
+cliente1 = Cliente("Arizbe", cuenta1)
 
-print("\nDatos de la cuenta:")
-cuenta1.imprimirDetalles()
+menu.bienvenida()
 
+while True:
 
-if opcion == "1":
-    cuenta1.depositar(800)
-    print("\nDepósito realizado")
-    cuenta1.imprimirDetalles()
+    op = menu.opciones()
 
-elif opcion == "2":
-    cuenta1.retirar(100)
-    print("\nRetiro realizado")
+    if op == "1":
+        cant = float(input("Cantidad: "))
+        if cuenta1.depositar(cant):
+            print("Deposito correcto")
+        else:
+            print("Error")
 
-    cuenta1.imprimirDetalles()
+    elif op == "2":
+        cant = float(input("Cantidad: "))
+        if cuenta1.retirar(cant):
+            print("Retiro correcto")
+        else:
+            print("No hay saldo")
+
+    elif op == "3":
+        print(cliente1)
+
+    elif op == "4":
+        break
+
+    else:
+        print("Opcion invalida")
