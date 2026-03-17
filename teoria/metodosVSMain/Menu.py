@@ -1,6 +1,6 @@
 """
-Created on March, 2026
-@author: lunysska
+Created on Marzo, 2026
+@author: arizbesilva0-star
 """
 
 from Cuenta import *
