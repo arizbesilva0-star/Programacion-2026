@@ -7,21 +7,15 @@ from Cuenta import *
 
 class Menu:
 
-    # Constructor
-    # Inicializa el mensaje de bienvenida
-    def __init__(self, valor):
-        self.mensajeDeBienvenida = valor
+    def __init__(self, mensaje):
+        self.mensaje = mensaje
 
-    # Método que muestra el mensaje de bienvenida
-    def darBienvenida(self):
-        print(self.mensajeDeBienvenida)
+    def bienvenida(self):
+        print(self.mensaje)
 
-    # Método que muestra las opciones del menú
-    def despliegaMenu(self):
-        print("\nLas opciones son:")
-        print("1. Depositar")
+    def opciones(self):
+        print("\n1. Depositar")
         print("2. Retirar")
-
-        opcion = input("Teclea la opcion: ")
-
-        return opcion
+        print("3. Mostrar cuenta")
+        print("4. Salir")
+        return input("Opcion: ")
